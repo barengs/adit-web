@@ -1,12 +1,13 @@
 <script>
   import Alerts from "$lib/components/Alerts.svelte";
 import Navbar from "$lib/components/Navbar.svelte";
-import "../app.css";
+import "../../app.css";
 </script>
 
 
-<Navbar/>
-<main class="mt-2"> 
+
+<main class="mt-2">
+  <Navbar/> 
 <Alerts/>
 <div class="mt-16">
     <slot></slot>
