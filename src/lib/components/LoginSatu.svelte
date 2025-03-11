@@ -2,7 +2,7 @@
      import { goto } from '$app/navigation';
 
 function goToBiodata() {
-    goto('/biodata'); // Sesuaikan dengan path halaman PMB
+    goto('/home'); // Sesuaikan dengan path halaman PMB
 }
 </script>
 
