@@ -8,7 +8,10 @@ import "../../app.css";
 
 <main class="mt-2">
   <Navbar/> 
-<Alerts/>
+  <div class="mr-4 ml-4 mt-4">
+    <Alerts/>
+  </div>
+
 <div class="mt-16">
     <slot></slot>
 </div>

@@ -1,1 +1,7 @@
-<h1>ini data pmb</h1>
+<script>
+  import Datapmb from "$lib/components/Datapmb.svelte";
+
+
+</script>
+
+<Datapmb/>

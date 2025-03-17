@@ -1,1 +1,9 @@
-<h1>ini alamat pmb</h1>
+<script>
+  import Alamat from "$lib/components/Alamat.svelte";
+
+
+</script>
+
+
+
+<Alamat/>

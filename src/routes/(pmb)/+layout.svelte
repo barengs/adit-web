@@ -4,7 +4,7 @@
     import "flowbite";
 </script>
   
-<div class="flex h-screen bg-gray-200"> <!-- Tambahkan bg-gray-100 di sini -->
+<div class="flex  min-h-screen bg-gray-200"> <!-- Tambahkan bg-gray-100 di sini -->
     <!-- Sidebar -->
     <div class="w-64 fixed h-full ">
       <Sidebar />
