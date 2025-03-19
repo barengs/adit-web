@@ -19,9 +19,6 @@
 
     const menuItems: MenuItem[] = [
         { name: 'Home', path: '/home', icon: HomeSolid },
-        { name: 'Alamat', path: '/alamat', icon: ClipboardListSolid }, // Ganti dengan ClipboardListSolid
-        { name: 'Data Orang Tua', path: '/ortu', icon: UsersGroupSolid },
-        { name: 'Data Pendidikan', path: '/pendidikan', icon: BookOpenSolid },
         { name: 'Data Akun', path: '/dataakun', icon: UserSolid },
         { name: 'Data PMB', path: '/datapmb', icon: ClipboardListSolid },
     ];
