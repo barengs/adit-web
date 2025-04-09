@@ -2,7 +2,7 @@
   import { writable } from 'svelte/store';
 
   export const biodata = writable({
-      name: "John Doe",
+      name: "wahyudi ken",
       age: 25,
       prodi: "Teknik Informatika",
       fakultas: "Fakultas Teknik",
@@ -29,7 +29,7 @@
   <h2 class="text-2xl font-semibold text-gray-800 text-center">Biodata Diri</h2>
 
   {#if $biodata}
-      <!-- Informasi Pribadi -->
+      
       <div class="grid grid-cols-2 gap-6 mt-6">
           <div class="p-4 border rounded-lg">
               <h3 class="text-lg font-semibold text-gray-700">Informasi Pribadi</h3>
@@ -52,7 +52,7 @@
           </div>
       </div>
 
-      <!-- Akun Pengguna -->
+      
       <h2 class="text-xl font-semibold text-gray-800 mt-8">Akun Pengguna</h2>
       <div class="mt-4 p-4 border rounded-lg">
           <table class="w-full text-left border-collapse">

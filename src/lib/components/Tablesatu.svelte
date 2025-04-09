@@ -11,19 +11,19 @@
     } from 'flowbite-svelte';
     import { slide } from 'svelte/transition';
   
-    // Data tabel
+    
     const items: { name: string; color: string; type: string; price: string }[] = [
       { name: 'Apple MacBook Pro 17"', color: "Silver", type: "Laptop", price: "$2999" },
       { name: "Microsoft Surface Pro", color: "White", type: "Laptop PC", price: "$1999" },
       { name: "Magic Mouse 2", color: "Black", type: "Accessories", price: "$99" },
     ];
   
-    // Menentukan tipe variabel
+    
     let openRow: number | null = null;  
     let details: { name: string; color: string; type: string; price: string } | null = null;
     let doubleClickModal: boolean = false;
   
-    // Fungsi toggleRow dengan tipe parameter eksplisit
+    
     function toggleRow(i: number) {
       openRow = openRow === i ? null : i;
     }
@@ -65,7 +65,7 @@
     </TableBody>
   </Table>
   
-  <!-- Modal hanya muncul jika doubleClickModal aktif -->
+  
   {#if doubleClickModal}
     <Modal title={details ? details.name : ''} bind:open={doubleClickModal} autoclose outsideclose>
       {#if details}

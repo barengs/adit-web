@@ -4,20 +4,20 @@
     import "flowbite";
 </script>
   
-<div class="flex  min-h-screen bg-gray-200"> <!-- Tambahkan bg-gray-100 di sini -->
-    <!-- Sidebar -->
+<div class="flex  min-h-screen bg-gray-200"> 
+    
     <div class="w-64 fixed h-full ">
       <Sidebar />
     </div>
   
-    <!-- Konten utama -->
+    
     <div class="flex flex-col flex-1 ml-64">
-      <!-- Navbar -->
+      
       <div class="w-full">
         <NavbarDua />
       </div>
   
-      <!-- Slot untuk konten -->
+      
       <main class="p-4">
         <slot></slot>
       </main>

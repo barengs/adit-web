@@ -32,7 +32,7 @@
 <div class="w-full max-w-3xl mx-auto p-6 bg-white shadow-md rounded-lg">
 <h2 class="text-2xl font-semibold text-gray-800 text-center">Biodata Diri</h2>
 
-<!-- Biodata -->
+
 <div class="grid grid-cols-2 gap-6 mt-6">
   <div class="p-4 border rounded-lg">
     <h3 class="text-lg font-semibold text-gray-700">Informasi Pribadi</h3>
@@ -54,7 +54,7 @@
   </div>
 </div>
 
-<!-- Riwayat Pendidikan -->
+
 <h2 class="text-xl font-semibold text-gray-800 mt-8">Riwayat Pendidikan</h2>
 <div class="mt-4 p-4 border rounded-lg">
   <table class="w-full text-left border-collapse">
@@ -77,7 +77,7 @@
   </table>
 </div>
 
-<!-- Data Orang Tua & Wali -->
+
 <h2 class="text-xl font-semibold text-gray-800 mt-8">Data Orang Tua & Wali</h2>
 <div class="grid grid-cols-3 gap-6 mt-4">
   {#each Object.entries($biodata.parents) as [key, parent]}

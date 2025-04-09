@@ -24,7 +24,7 @@
   {#if $biodata}
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       
-      <!-- Card Data Diri -->
+      
       <div class="bg-gray-100 p-6 rounded-lg shadow">
         <p class="mb-2"><strong>Nama:</strong> {$biodata.name}</p>
         <p class="mb-2"><strong>Usia:</strong> {$biodata.age} tahun</p>
@@ -33,7 +33,7 @@
         <p class="mb-2"><strong>Telepon:</strong> {$biodata.phone}</p>
       </div>
 
-      <!-- Card Alamat -->
+     
       <div class="bg-gray-100 p-6 rounded-lg shadow">
         <p class="mb-2"><strong>Provinsi:</strong> {$biodata.address.provinsi}</p>
         <p class="mb-2"><strong>Kota/Kabupaten:</strong> {$biodata.address.kota}</p>
