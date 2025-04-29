@@ -1,7 +1,8 @@
 <script>
-  import Datapmb from "$lib/components/Datapmb.svelte";
+  import TableDua from "$lib/components/TableDua.svelte";
+
 
 
 </script>
 
-<Datapmb/>
+<TableDua/>

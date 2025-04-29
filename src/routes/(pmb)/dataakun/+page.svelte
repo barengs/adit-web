@@ -1,7 +1,7 @@
 <script>
-  import TableDua from "$lib/components/TableDua.svelte";
+  import Tablesatu from "$lib/components/Tablesatu.svelte";
+
 
 </script>
 
-
-<TableDua/>
+<Tablesatu/>

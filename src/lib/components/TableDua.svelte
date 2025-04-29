@@ -25,7 +25,7 @@
 </script>
 
 <div class="w-full mx-auto p-6 bg-white shadow-md rounded-lg">
-  <h2 class="text-xl font-semibold mb-4">Biodata Diri</h2>
+  <h2 class="text-xl font-semibold mb-4">data user</h2>
 
   {#if $biodata}
     <div class="grid grid-cols-2 gap-4">

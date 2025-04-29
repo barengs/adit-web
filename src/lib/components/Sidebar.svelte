@@ -17,8 +17,9 @@
   
     const allMenuItems: MenuItem[] = [
       { name: 'Home', path: '/home', icon: HomeSolid },
-      { name: 'Data Akun', path: '/dataakun', icon: UserSolid },
-      { name: 'Data PMB', path: '/datapmb', icon: ClipboardListSolid }
+      { name: 'Profil Admin', path: '/profiladmin', icon: UserSolid },
+      { name: 'Data Peserta', path: '/dataakun', icon: ClipboardListSolid },
+      { name: 'Akun', path: '/datapmb', icon: UserSolid }
     ];
   
     let role: string | null = null;
@@ -32,10 +33,12 @@
       role = localStorage.getItem('role');
   
       if (role === 'admin') {
-        filteredMenuItems = allMenuItems.filter((item) => item.name === 'Data PMB');
+        filteredMenuItems = allMenuItems.filter((item) => item.name === 'Data Peserta' || item.name === 'Profil Admin');
+        if (activePath !== '/profiladmin') {
+          goto('/profiladmin'); }
       } else if (role === 'user') {
         filteredMenuItems = allMenuItems.filter(
-          (item) => item.name === 'Home' || item.name === 'Data Akun'
+          (item) => item.name === 'Home' || item.name === 'Akun'
         );
       } else {
         filteredMenuItems = []; // Role tidak valid
@@ -53,7 +56,7 @@
   </script>
   
   <div class="w-64 h-screen bg-gray-800 text-white p-5 fixed top-0 left-0">
-    <h2 class="text-xl font-semibold mb-6">Sistem PMB</h2>
+    <h2 class="text-xl font-semibold mb-6">Sistem PMB </h2>
   
     <!-- Dropdown Profil -->
     <div class="mb-4">
