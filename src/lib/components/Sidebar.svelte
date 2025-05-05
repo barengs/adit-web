@@ -18,8 +18,7 @@
     const allMenuItems: MenuItem[] = [
       { name: 'Home', path: '/home', icon: HomeSolid },
       { name: 'Profil Admin', path: '/profiladmin', icon: UserSolid },
-      { name: 'Data Peserta', path: '/dataakun', icon: ClipboardListSolid },
-      { name: 'Akun', path: '/datapmb', icon: UserSolid }
+      { name: 'Data Peserta', path: '/dataakun', icon: ClipboardListSolid }
     ];
   
     let role: string | null = null;
@@ -38,7 +37,7 @@
           goto('/profiladmin'); }
       } else if (role === 'user') {
         filteredMenuItems = allMenuItems.filter(
-          (item) => item.name === 'Home' || item.name === 'Akun'
+          (item) => item.name === 'Home' 
         );
       } else {
         filteredMenuItems = []; // Role tidak valid
@@ -58,7 +57,7 @@
   <div class="w-64 h-screen bg-gray-800 text-white p-5 fixed top-0 left-0">
     <h2 class="text-xl font-semibold mb-6">Sistem PMB </h2>
   
-    <!-- Dropdown Profil -->
+    
     <div class="mb-4">
       <button 
         class="flex items-center justify-between w-full px-4 py-2 text-left hover:bg-gray-700 rounded-md transition" 

@@ -1,9 +1,11 @@
 <script>
   
   import Alamat from './Alamat.svelte';
+  import ModalWizard from './ModalWizard.svelte';
   import Ortu from './Ortu.svelte';
   import Pendidikan from './Pendidikan.svelte';
   import Profil from './Profil.svelte';
+  
 
   
 
@@ -11,8 +13,11 @@
 </script>
 
 <div class="w-full mx-auto p-6 bg-white shadow-md rounded-lg">
-  <h2 class="text-2xl font-bold mb-6">Biodata Diri</h2>
-
+  <div class="flex items-center justify-between mb-2">
+    <h2 class="text-2xl font-bold mb-6">Biodata Diri</h2>
+    <ModalWizard/> 
+  </div>
+  
   
   <div class="border-b border-gray-200 flex  space-x-4">
     
