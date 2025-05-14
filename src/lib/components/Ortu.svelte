@@ -1,4 +1,4 @@
-<div class="w-full max-w-lg mx-auto bg-white shadow-md rounded-lg p-6">
+<div class="w-full max-w-lg  bg-white shadow-md rounded-lg p-6">
 
   <div class="mt-4 space-y-4">
     <div class="p-4 border rounded-lg shadow-sm">

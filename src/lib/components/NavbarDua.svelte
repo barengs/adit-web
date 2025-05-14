@@ -9,9 +9,7 @@
     <div class="ml-4">
         <p class="text-3xl dark:text-white font-semibold">SPMB UI-MADURA</p>
         <Breadcrumb aria-label="Default breadcrumb example">
-            <BreadcrumbItem href="/" home>Pmb</BreadcrumbItem>
-            <BreadcrumbItem href="/">Profil</BreadcrumbItem>
-            <BreadcrumbItem>Biodata</BreadcrumbItem>
+            <BreadcrumbItem href="" home>Pmb</BreadcrumbItem>
         </Breadcrumb>
     </div>
 

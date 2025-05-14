@@ -19,7 +19,7 @@
   });
 </script>
 
-<div class="w-full max-w-3xl mx-auto p-6 bg-white shadow-md rounded-lg">
+<div class="w-full max-w-3xl  p-6 bg-white shadow-md rounded-lg">
 
   {#if $biodata}
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">

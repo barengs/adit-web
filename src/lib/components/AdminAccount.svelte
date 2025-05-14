@@ -1,22 +1,28 @@
 <script>
   
   import { Button } from 'flowbite-svelte';
+  import ModalAdmin from './ModalAdmin.svelte';
   
 
 </script>
 
-<div class="w-full max-w-md mx-auto bg-white rounded-lg shadow-md overflow-hidden p-6 space-y-6">
+
+
+<div class=" w-[1050px] mx-auto bg-white rounded-lg shadow-md overflow-hidden p-6 space-y-6">
     
+  
+  
     <div class="flex flex-col items-center space-y-3">
       <div class="w-24 h-24 bg-gray-300 rounded-full"></div>
-      <h2 class="text-xl font-semibold text-gray-800">Nama Lengkap</h2>
+      <div class="flex gap-2">
+        <h2 class="text-xl font-semibold text-gray-800">Nama Lengkap</h2>
+          <ModalAdmin/>
+      </div>
       <p class="text-gray-600">Program Studi - Fakultas</p>
     </div>
   
 
-   <div class="m-[140px] [50px]">
-    <Button color='purple'>edit profil</Button>
-   </div>
+   
     
    
     
